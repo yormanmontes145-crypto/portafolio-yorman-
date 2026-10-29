@@ -1272,4 +1272,22 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+  
+/* Ajuste de la foto principal en celulares */
+@media (max-width: 768px) {
+  .hero img {
+    object-position: 75% center;
+  }
+
+  .hero h2 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .hero p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
+
 }
