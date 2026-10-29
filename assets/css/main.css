@@ -1272,8 +1272,11 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
-  
-/* Ajuste de la foto principal en celulares */
+}
+
+/*--------------------------------------------------------------
+# Ajustes de la foto principal en celulares
+--------------------------------------------------------------*/
 @media (max-width: 768px) {
   .hero img {
     object-position: 75% center;
@@ -1288,6 +1291,4 @@ section,
     font-size: 20px;
     line-height: 1.5;
   }
-}
-
 }
